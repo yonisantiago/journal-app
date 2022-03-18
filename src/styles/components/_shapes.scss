@@ -1,0 +1,31 @@
+.floating {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+
+  padding: 50px 35px;
+  width: 400px;
+  height: 520px;
+}
+
+.background .shape {
+  z-index: 0;
+
+  position: absolute;
+  border-radius: 50%;
+
+  width: 200px;
+  height: 200px;
+}
+.shape:first-child {
+  background: linear-gradient(-225deg, #35eb93 0%, #50a7c2 100%);
+  left: -50px;
+  top: -50px;
+}
+.shape:last-child {
+  background: linear-gradient(to right, #ff512f, #f09819);
+
+  right: -50px;
+  bottom: -50px;
+}
